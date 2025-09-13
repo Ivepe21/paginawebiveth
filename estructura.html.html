@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus Ramirez - Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        
+        <nav class="navbar">
+            <div class="logo">LOGO</div>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="active">INICIO</a></li>
+                <li><a href="#acerca">ACERCA</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#portafolio">PORTFOLIO</a></li>
+                <li><a href="#experiencia">EXPERIENCIA</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+            <div class="language">ES</div>
+        </nav>
+
+        <section id="inicio" class="content-section hero">
+            <div class="text-content">
+                <p class="greeting">HOLA</p>
+                <h1>ME LLAMO: <br><span class="highlight">Jesus Alejandro Ramirez Rendon</span></h1>
+                <p class="description">Esta es mi página personal donde conocerás mis conocimientos y experiencias.
+                </p>
+                <a href="#" class="btn-download">DESCARGAR CV</a>
+            </div>
+            <div class="image-content">
+                <img src="Guapo.jpg" alt="Jesus Alejandro Ramirez Rendon"></div>
+        </section>
+        <section id="acerca" class="content-section">
+            <h2>Acerca de mí</h2>
+            <div class="section-content">
+                <p>Aquí puedes hablar sobre ti, tus habilidades y tu trayectoria. Por ejemplo:</p>
+                <ul>
+                    <li>**Nombre**: Jesús Alejandro Ramirez Rendon</li>
+                    <li>**Edad**: 27 Años</li>
+                    <li>**Habilidades**: Resolución de problemas lógicos, HTML, CSS y JavaScript.</li>
+                    <li>**Descripción**: Soy un estudiante del Instituto Tecnológico Superior de Zongolica con una gran capacidad de aprendizaje autónomo y pasión por el desarrollo web.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="servicios" class="content-section">
+            <h2>Mis Servicios</h2>
+            <div class="section-content">
+                <p>Describe los servicios que ofreces, como:</p>
+                <ul>
+                    <li>Diseño y desarrollo de sitios web.</li>
+                    <li>Mantenimiento y optimización de páginas.</li>
+                    <li>Desarrollo de aplicaciones web a medida.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="portafolio" class="content-section">
+            <h2>Portafolio</h2>
+            <div class="section-content">
+                <p>Muestra tus mejores proyectos aquí. Puedes incluir imágenes, descripciones y enlaces a los proyectos. Ejemplo:</p>
+                <div class="project-item">
+                    <h3>Proyecto 1: Página de Abarrotes</h3>
+                    <p>Una página web dedicada a la venta de productos de abarrotes, desarrollada con HTML y CSS.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Proyecto 2: Clon de Sitio Web</h3>
+                    <p>Un proyecto personal para replicar el diseño y la funcionalidad de un sitio web popular usando mis conocimientos.</p>
+                </div>
+            </div>
+        </section>
+        <section id="experiencia" class="content-section">
+            <h2>Experiencia</h2>
+            <div class="section-content">
+                <p>Detalla tu experiencia laboral o académica relevante. Puedes usar un formato de lista:</p>
+                <ul>
+                    <li>**Prácticas profesionales**: Empresa A (2023 - 2024) - Desarrollador Junior.</li>
+                    <li>**Proyecto académico**: Lideré el desarrollo de un proyecto en equipo para la asignatura de Desarrollo Web.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contacto" class="content-section form-section">
+            <h2>📩 Contáctanos</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="ejemplo@dominio.com">
+
+                <label for="edad">Edad (18-99):</label>
+                <input type="number" id="edad" name="edad" required min="18" max="99">
+
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero" required>
+                    <option value="">Selecciona tu género</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+
+                <label for="terminos">
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    Acepto los términos y condiciones
+                </label>
+
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tus comentarios"></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset" class="btn-secundario">Limpiar</button>
+            </form>
+        </section>
+        </div>
+
+</body>
+</html>
